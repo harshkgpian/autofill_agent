@@ -1,7 +1,7 @@
 from groq import Groq
 import ast
 
-client = Groq(api_key="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")
+client = Groq(api_key=YOUR_KEY)
 model = "llama3-8b-8192"
 
 def extract_input_fields(scraped_content):
